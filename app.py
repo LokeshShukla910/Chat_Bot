@@ -1,4 +1,3 @@
-
 from dotenv import load_dotenv 
 load_dotenv() 
 import streamlit as st 
@@ -22,5 +21,5 @@ submit = st.button("Ask your query")
 
 if submit :
     response = my_output(input) 
-    st.subheader("The Response is=")
+    st.subheader("The Response is :")
     st.write(response)
